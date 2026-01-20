@@ -74,7 +74,7 @@ Mouse Cursor Movement
 ### 1. Clone the repository
 ```
 bash
-git clone https://github.com/ZhaoDylan099/Hand-as-Mouse.git
+git clone https://github.com/ZhaoDylan099/Hand-Gesture-Mouse-Controller.git
 cd Hand-as-Mouse
 ```
 ### 2. Install dependencies
