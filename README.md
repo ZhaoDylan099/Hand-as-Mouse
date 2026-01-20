@@ -5,7 +5,7 @@ The current version supports **cursor movement only** (no clicking yet) with liv
 
 ---
 
-## 🎯 Project Goal
+## Project Goal
 
 Replace traditional mouse input with **hand-based cursor control**, using:
 
@@ -18,7 +18,7 @@ This project is **fully custom, trainable, and extensible** for future gesture i
 
 ---
 
-## ✨ Features
+## Features
 
 - Real-time webcam inference
 - YOLO hand detection for bounding boxes
@@ -31,7 +31,7 @@ This project is **fully custom, trainable, and extensible** for future gesture i
 
 ---
 
-## 🧠 System Architecture
+## System Architecture
 
 Webcam Frame
 ↓
@@ -54,7 +54,7 @@ Mouse Cursor Movement
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - Python 3.10+
 - PyTorch
@@ -68,7 +68,7 @@ Mouse Cursor Movement
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 Gestures/
 ├── interface.py # Tkinter GUI + webcam loop
@@ -83,7 +83,7 @@ Gestures/
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 1. Clone the repository
 ```
@@ -99,7 +99,7 @@ pip install torch torchvision opencv-python numpy pillow pyautogui ultralytics
 ```
 python app.py
 ```
-### 🖐️ Hand Landmark Model
+### Hand Landmark Model
 
 - Trained on the **FreiHAND dataset**
 - Outputs **21 hand keypoints**
@@ -110,7 +110,7 @@ python app.py
 
 ---
 
-### 🖱️ Cursor Control Logic
+### Cursor Control Logic
 
 - Index fingertip (landmark 8) maps to screen coordinates
 - Coordinates are smoothed to reduce jitter
@@ -119,12 +119,12 @@ python app.py
 
 ---
 
-### 📊 Performance
+### Performance
 
 - **YOLO inference:** ~60–65 ms per frame (CPU)
 
 
-## 🔮 Planned Features
+## Future Features
 
 - Pinch-to-click
 - Drag & scroll gestures
@@ -139,7 +139,7 @@ python app.py
   - Lightweight ResNet head
 ---
 
-## ⚠️ Known Limitations
+## Known Limitations
 
 - Click gestures not implemented yet
 - Performance depends on hardware
