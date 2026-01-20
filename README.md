@@ -66,20 +66,6 @@ Mouse Cursor Movement
 - Tkinter
 - PyAutoGUI
 
----
-
-## Project Structure
-
-Gestures/
-├── interface.py # Tkinter GUI + webcam loop
-├── models/
-│ ├── yolo_hand.pt # YOLO hand detection model
-│ └── resnet_landmark.pth # Trained ResNet landmark model
-├── utils/
-│ ├── geometry.py # Box sanitization & scaling
-│ └── smoothing.py # Cursor smoothing
-├── README.md
-
 
 ---
 
